@@ -8,6 +8,7 @@
 body {
   font-family: "Raleway", sans-serif;
   background-color: #bde4eb;
+  text-align: center;
 }
 header {
   background-image: url("../img/header-bkg.jpg");
@@ -20,6 +21,5 @@ h1 {
   font-size: 3rem;
   color: #f05c3f;
   background-color: #202d34;
-  width: 75%;
   padding: 2%;
 }
