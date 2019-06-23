@@ -12,10 +12,12 @@ body {
 header {
   background-image: url("../img/header-bkg.jpg");
   background-size: cover;
+  background-position: bottom center;
   padding: 5% 0;
+  height: 250px;
 }
 h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   color: #f05c3f;
   background-color: #202d34;
   width: 75%;
