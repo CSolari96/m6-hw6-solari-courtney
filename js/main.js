@@ -40,3 +40,6 @@ function randomLunchSelection() {
 	var buttonSection = document.getElementById("generator-button");
 	buttonSection.removeChild(button);
 }
+
+// Invoke randomLunchSelection() when the button is clicked
+button.addEventListener("click", randomLunchSelection);
