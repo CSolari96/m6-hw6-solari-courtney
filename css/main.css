@@ -9,6 +9,7 @@ body {
   font-family: "Raleway", sans-serif;
   background-color: #bde4eb;
   text-align: center;
+  color: #202d34;
 }
 header {
   background-image: url("../img/header-bkg.jpg");
@@ -17,9 +18,19 @@ header {
   padding: 5% 0;
   height: 250px;
 }
-h1 {
+header h1 {
   font-size: 3rem;
   color: #f05c3f;
   background-color: #202d34;
   padding: 2%;
+  font-weight: 900;
+}
+main h2 {
+  font-weight: 600;
+}
+main p {
+  font-weight: 500;
+}
+footer h3 {
+  font-weight: 500;
 }
