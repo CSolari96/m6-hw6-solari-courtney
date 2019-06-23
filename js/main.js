@@ -25,3 +25,18 @@ var lunchChoices = [
 	"Pizza",
 	"Sushi"
 ]
+
+// Displays Random Lunch Choice when Invoked
+function randomLunchSelection() {
+
+	// Randomly sort lunch choices
+	lunchChoices.sort(function(a, b){return 0.5 - Math.random()});
+
+	// Add random lunch choice to placeholder element
+	var randomSelection = document.createTextNode(lunchChoices[0]);
+	randomLunchItem.appendChild(randomSelection);
+
+	// Hide button
+	var buttonSection = document.getElementById("generator-button");
+	buttonSection.removeChild(button);
+}
