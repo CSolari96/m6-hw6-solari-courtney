@@ -9,3 +9,15 @@ body {
   font-family: "Raleway", sans-serif;
   background-color: #bde4eb;
 }
+header {
+  background-image: url("../img/header-bkg.jpg");
+  background-size: cover;
+  padding: 5% 0;
+}
+h1 {
+  font-size: 4rem;
+  color: #f05c3f;
+  background-color: #202d34;
+  width: 75%;
+  padding: 2%;
+}
