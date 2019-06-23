@@ -15,7 +15,7 @@ var lunchChoices = [
 	"Cheeseburger", 
 	"Hot Dog", 
 	"Fried Chicken", 
-	"Spagetti", 
+	"Spaghetti", 
 	"Ceasar Salad", 
 	"Fettuccine Alfredo", 
 	"Fish and Chips",
@@ -39,6 +39,9 @@ function randomLunchSelection() {
 	// Hide button
 	var buttonSection = document.getElementById("generator-button");
 	buttonSection.removeChild(button);
+
+	// Add class emphasize to selected element
+	randomLunchItem.classList.add("emphasize");
 }
 
 // Invoke randomLunchSelection() when the button is clicked
