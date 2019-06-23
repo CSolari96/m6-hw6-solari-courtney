@@ -1,1 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:500,600,900&display=swap');
+/* Reset Rule */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
